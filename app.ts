@@ -8,4 +8,3 @@ initApp().then((app) =>{
     });
 
 });
-

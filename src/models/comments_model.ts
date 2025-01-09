@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 export interface iComment {
     comment: 'string';
-    author: 'string';
+    sender: 'string';
     postId: 'string';
 }
 
@@ -12,7 +12,7 @@ const commentSchema = new mongoose.Schema<iComment>({
         type: String,
         required:true,
     },
-    author: {
+    sender: {
         type: String,
         required:true,
     },

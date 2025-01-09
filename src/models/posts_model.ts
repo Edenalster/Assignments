@@ -1,5 +1,4 @@
 import  mongoose from "mongoose";
-
 export interface iPost{
     title: 'string';
     content: 'string';
